@@ -2,11 +2,11 @@ from distutils.core import setup
 
 setup(
     name='nytimesarticle',
-    version='0.1.0',
+    version='0.1.1',
     author='Evan Sherlock',
     author_email='egsherlock@gmail.com',
     py_modules=['nytimesarticle'],
-    url='http://github.com/evansherlock/nytimesarticle',
+    url='http://github.com/henningko/nytimesarticle',
     license='LICENSE.txt',
     description='Fully-functional Python wrapper for the New York Times Article Search API',
     long_description=open('README.txt').read(),
@@ -14,4 +14,3 @@ setup(
         "requests >= 2.1.0",
     ],
 )
-
